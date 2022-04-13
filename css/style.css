@@ -13,13 +13,17 @@ body{
 
 }
 
+.bootstrap{
+display: none;
+}
+
 .container-header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     " img  h1  ."
-    "img   nav iconos"
+    "img   nav ."
     ; 
     background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
     height: 100px;
@@ -57,15 +61,12 @@ nav ul li a{
     
 }
 
-.redes-sociales{
-    grid-area: iconos;
-}
+
 .redes-sociales img{
     width: 25px;
 }
-.menu-bar{
-    display: none;
-}
+
+
 
 /* css  header*/
 
@@ -372,7 +373,7 @@ text-decoration: underline;
     grid-row: 2/4;
 }
 .container-nosotros ul{
-    grid-column: 3/4;
+    grid-column: 3/5;
     grid-row: 3;
     text-decoration: underline;
     list-style: none;
@@ -474,7 +475,7 @@ text-decoration: underline;
     text-decoration: underline;
 }
 
-.formulario{
+.Formulario{
     grid-column: 5/9;
     grid-row: 8/13;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
@@ -577,43 +578,108 @@ border: solid  white;
 
 /* mediaqueries mobil y tablet index*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
-    .nav-bar{
 
+    .bootstrap{
+        display:  block;
+        grid-area: boots;
+    }
+
+    .img-logo-boots{
+        width: 130px;
+    }
+.navbar{
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+.nav-item{
+    display: flex;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px white;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.offcanvas{
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  #152c48 0%, #195daf 97.5% );
+}
+
+.offcanvas-title{
+    font-family: 'popins';
+    font-size: 20px;
+}
+
+.navbar h5{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+.img-logo-boots{
+    animation-name: img-logo-boots;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes img-logo-boots{
+    0%{
+        transform: rotatey(0deg);
+    }
+    35%{
+        transform: rotatey(80deg) ;
+    }
+
+    50%{
+        transform: rotatey(180deg);
+
+    }
+    75%{
+        transform: rotatey(210deg);
+    }
+    100%{
+        transform: rotatey(360deg);
+    }
+}
+
+
+
+
+
+
+    .container-header a h1{
         display: none;
     }
-    .menu-bar{
-        display: block;
-        position: absolute;
-        top: 5%;
-        left: 75%;
+    .nav-bar{
+        display: none;
     }
-    .menu-bar img{
-        width: 20px;
+    .img-logo{
+        display: none;
     }
     .redes-sociales{
         display: none;
     }
 
+
     .container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(12,1fr);
-        grid-template-areas: 
-        ". eslogan ."
-        ". contenido ."
+        grid-template-areas:
+        "eslogan eslogan eslogan"
+        "contenido contenido contenido"
         ". imgindex ."
         "ventarig ventarig ventarig"
         "ventarig ventarig ventarig"
         "ventarig ventarig ventarig"
-        "ventarig ventarig ventarig"
-        "ventarig ventarig ventarig"
         "cloudmining cloudmining cloudmining"
         "cloudmining cloudmining cloudmining"
         "cloudmining cloudmining cloudmining"
-        "cloudmining cloudmining cloudmining"
-        "cloudmining cloudmining cloudmining"
-        ". mensaje ."
-        ". imgindex2 .";
+        "mensaje mensaje mensaje"
+
+
+        ;
         
     }
     .eslogan {
@@ -638,6 +704,7 @@ border: solid  white;
         grid-area: contenido;
         text-align: center;
         margin: 0%;
+
         
     }
     .venta-rig{
@@ -646,12 +713,13 @@ border: solid  white;
     }
     .cloudmining{
         grid-area: cloudmining;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .mensaje{
         grid-area: mensaje;
         text-align: center;
+        margin-top: 20px;
     }
     
     .button-w{
@@ -662,7 +730,7 @@ border: solid  white;
     }
     
     .img-index2{
-        grid-area: imgindex2;
+        display: none;
     }
     .img-index2 img{
         
@@ -695,13 +763,14 @@ border: solid  white;
 
         display: block;
     }
+
     .container{
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(12,1fr);
         grid-template-areas: 
         "eslogan eslogan eslogan eslogan  eslogan eslogan"
-        ".  contenido contenido imgindex imgindex ."
+        "contenido  contenido contenido imgindex imgindex ."
         ". ventarig ventarig ventarig ventarig ."
         ". ventarig ventarig ventarig ventarig ."
         ". ventarig ventarig ventarig ventarig ."
@@ -928,6 +997,7 @@ border: solid  white;
     .eslogan3{
         grid-area: eslogan3;
         text-align: center;
+        /* mi primeras 1000 lineas de codigos :D */
         margin-top: 50px;
     }
     .text_informativo{
@@ -986,10 +1056,10 @@ border: solid  white;
     .container-contacto{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(8,1fr);
+        grid-template-rows: repeat(7,1fr);
         grid-template-areas:
         "eslogan4 eslogan4 eslogan4" 
-        ". telefonos ."
+        "telefonos telefonos telefonos"
         "correo correo correo"
         "ubicacion ubicacion ubicacion"
         "ubicacion ubicacion ubicacion"
@@ -998,15 +1068,12 @@ border: solid  white;
     }
     .eslogan4{
         grid-area: eslogan4;
-        margin-top: 30px ;
+        margin-top: 100px;
     }
-
-    /* mi primeras 1000 lineas de codigos :D */
 
     .telofonos{
         grid-area: telefonos;
         text-align: center;
-        position: relative;
         display: flex;
         flex-direction: column;
     }
@@ -1023,7 +1090,7 @@ border: solid  white;
     .ubicacion{
         grid-area: ubicacion;
     }
-    .formulario{
+    .Formulario{
         grid-area: formulario;
         margin-top: 20px;
 
@@ -1058,7 +1125,7 @@ border: solid  white;
     .ubicacion{
         grid-area: ubicacion;
     }
-    .formulario{
+    .Formulario{
         grid-area: formulario;
     }
 }
@@ -1106,9 +1173,9 @@ border: solid  white;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(3,1fr);
         grid-template-areas:
-        ". . eslogan5 eslogan5 . ."
-        ". textocloud textocloud textocloud textocloud ."
-        ". . imgcripto . . .";
+        ". . eslogan5 eslogan5 . . "
+        ". textocloud textocloud textocloud textocloud . "
+        ". .  imgcripto imgcripto . .";
     }
     .eslogan5{
         grid-area: eslogan5;

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +15,7 @@
     <title>CriptoAr</title>
 </head>
 <body>
+    <!-- menu con grid y flexbox -->
     <header class="container-header">
             <a href="#"><h1>CriptoAr</h1></a>
             <nav class="nav-bar">
@@ -26,15 +29,41 @@
                 <div class="img-logo">
                     <a href="#"><img src="assets/img/logo2.png" alt="logo_de_criptomonedas"></a>
                 </div>
-                <div class="redes-sociales">
-                    <a href="https://www.instagram.com/ferreyrasantiago/"target="blank"><img  src="assets/iconos/instagram.png" alt="instagram"></a>
-                    <a href="https://www.facebook.com/roberto.ferreyra.965/"target="blank"><img src="assets/iconos/facebook.png" alt="facebook"></a>
-                    <a href="https://api.whatsapp.com/send?phone=+543576466356" target="blank"><img src="assets/iconos/whatsapp.png" alt="whatsapp"></a>
-                </div>
-                <div class="menu-bar">
-                    <img src="assets/iconos/list.png" alt="menu-de-navegacion-en-mobile">
-                </div>
-        </header>
+
+                <!-- menu hamburguesa bootstrap -->
+                <div class="bootstrap">
+                    <nav class="navbar navbar-dark bg-light fixed-top">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img class="img-logo-boots" src="assets/img/logo-sin-nombre.png" alt="logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CriptoAr</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="pag/productos.html">Productos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="pag/nosotros.html">Nosotros</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="pag/contacto.html">Contactanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- fin del menu hamburguesa -->
         
     <main class="container">
         <div class="eslogan">
@@ -58,14 +87,14 @@
             <h2 class="nombre">Rigs de minería</h2>
             <p class="descripcion">Equipos específicamente diseñados para minar y
                 brindarte la mayor rentabilidad posible.</p>
-                <a href="pag/productos.html"><button class="butto">ver mas</button></a>
+                <a href="pag/productos.html"><button class="butto btn btn-dark">ver mas</button></a>
         </div>
         <div class="cloudmining">
             <img class="img-serv"src="assets/img/cloudmining.png" alt="grafico-cloud-mining">
             <h2 class="nombre">Cloud Mining</h2>
             <p class="descripcion">Tú eliges la potencia que quieras y nuestros mineros
                 trabajarán para tí los 365 días del año</p>
-            <a href="pag/cloud_mining.html"><button class="butto">Compra Hesrate</button></a>
+            <a href="pag/cloud_mining.html"><button class="butto btn btn-dark" >Compra Hesrate</button></a>
         </div>
         <div class="img-index2">
             <img src="assets/img/img-promocional.png" alt="imagen-ilustrativa">
@@ -73,7 +102,7 @@
         <div class="mensaje">
             <h2>¿Qué estas esperando?</h2>
             <p>Mándanos un mensaje, coordiná una reunión con nuestro equipo y empezá a generar tus ingresos en dólares! 💥</p>
-            <a href="https://api.whatsapp.com/send?phone=+543576466356"><input type="submit" value="Mandanos un whatsapp"></a>
+            <a href="https://api.whatsapp.com/send?phone=+543576466356"><input class="btn btn-outline-dark" type="submit" value="Mandanos un whatsapp"></a>
         </div>
     </main>
 
@@ -87,5 +116,6 @@
             <a href="https://api.whatsapp.com/send?phone=+543576466356"target="blank"><img src="assets/iconos/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,27 +15,53 @@
     <title>CriptoAr | Productos</title>
 </head>
 <body>
+    <!-- menu con grid y flexbox -->
     <header class="container-header">
         <a href="../index.html"><h1>CriptoAr</h1></a>
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="../index.html">inicio</a> </li>
-                    <li><a href="#">productos</a> </li>
-                    <li><a href="nosotros.html">nosotros</a> </li>
-                    <li><a href="contacto.html">contacto</a></li>
-                </ul>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="../index.html">inicio</a> </li>
+                <li><a href="productos.html">productos</a> </li>
+                <li><a href="nosotros.html">nosotros</a> </li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+            <div class="img-logo">
+                <a href="#"><img src="../assets/img/logo2.png" alt="logo_de_criptomonedas"></a>
+            </div>
+    
+            <!-- menu hamburguesa bootstrap -->
+            <div class="bootstrap">
+                <nav class="navbar navbar-dark bg-light fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img class="img-logo-boots" src="../assets/img/logo-sin-nombre.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CriptoAr</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="productos.html">Productos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contactanos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </nav>
-                <div class="img-logo">
-                    <a href="../index.html"><img src="../assets/img/logo2.png" alt="logo_de_criptomonedas"></a>
-                </div>
-                <div class="redes-sociales">
-                    <a href="https://www.instagram.com/ferreyrasantiago/"target="blank"><img  src="../assets/iconos/instagram.png" alt="instagram"></a>
-                    <a href="https://www.facebook.com/roberto.ferreyra.965/"target="blank"><img src="../assets/iconos/facebook.png" alt="facebook"></a>
-                    <a href="https://api.whatsapp.com/send?phone=+543576466356"target="blank"><img src="../assets/iconos/whatsapp.png" alt="whatsapp"></a>
-                </div>
-                <div class="menu-bar">
-                    <img src="../assets/iconos/list.png" alt="menu-de-navegacion-en-mobile">
-                </div>
         </header>
 
 
@@ -60,7 +88,7 @@
                     <img  src="../assets/rigs-en-venta/rig1.jpg" alt="Rig-12-placas-2060-super">
                         <h3>Rig 12 Placas 2060 Super</h3>
                         <p>$11.490,00</p>
-                    <button>ver mas</button>
+                    <button class="btn btn-dark">ver mas</button>
                 </div>
             </article>
 
@@ -69,7 +97,7 @@
                     <img src="../assets/rigs-en-venta/rig2.jpg" alt="Rig-6-placas-2060-super">
                         <h3>Rig 6 Placas 2060 Super</h3>
                         <p>$6.770,00</p>
-                    <button>ver mas</button>
+                    <button class="btn btn-dark">ver mas</button>
                 </div>
             </article>
 
@@ -78,7 +106,7 @@
                     <img src="../assets/rigs-en-venta/rig3.jpg" alt="Rig-3-placas-2060-super">
                         <h3>Rig 3 Placas 2060 Super</h3>
                         <p>$3.240,00</p>
-                    <button>ver mas</button>
+                    <button class="btn btn-dark">ver mas</button>
                 </div>
             </article>
 
@@ -87,7 +115,7 @@
                     <img class="img-rig" src="../assets/rigs-en-venta/rig4.png" alt="Rig-36-placas-2060-super">
                         <h3>Rig 36 Placas 2060 Super</h3>
                         <p>$34.000,00</p>
-                    <button>ver mas</button>
+                    <button class="btn btn-dark">ver mas</button>
                 </div>
             </article>
 
@@ -96,7 +124,7 @@
                     <img class="img-rig" src="../assets/rigs-en-venta/rig5.png" alt="Rig-24-placas-2060-super">
                         <h3>Rig 24 Placas 2060 Super</h3>
                         <p>$22.870,00</p>
-                    <button>ver mas</button>
+                    <button class="btn btn-dark">ver mas</button>
                 </div>
             </article>
 
@@ -105,7 +133,7 @@
                     <img class="img-rig" src="../assets/rigs-en-venta/rig6.png" alt="Rig-12-placas-1660-super">
                         <h3>Rig 12 Placas 1660 Super</h3>
                         <p>$9.580,00</p>
-                    <button>ver mas</button>
+                    <button class="btn btn-dark">ver mas</button>
                 </div>
             </article>
         </section><!-- Fin Venta de los rigs de mineria-->
@@ -123,5 +151,6 @@
                 <a href="https://api.whatsapp.com/send?phone=+543576466356"target="blank"><img src="../assets/iconos/whatsapp.png" alt="whatsapp"></a>
             </div>
         </footer>
+        <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
     </body>
     </html>
