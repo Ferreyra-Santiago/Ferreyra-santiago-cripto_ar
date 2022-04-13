@@ -212,6 +212,11 @@ text-decoration: underline;
     overflow: hidden;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
 }
+.button{
+    position: absolute;
+    left: 55%;
+    top: 80%;
+}
 
 /*          Footer            */
 
