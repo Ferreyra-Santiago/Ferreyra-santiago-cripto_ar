@@ -137,7 +137,7 @@ text-decoration: underline;
 }
 
 .mensaje{
-    grid-column: 4/7;
+    grid-column: 4/6;
     grid-row: 10/13;
     position: relative;
 }
