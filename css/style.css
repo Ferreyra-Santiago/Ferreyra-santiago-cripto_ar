@@ -298,32 +298,28 @@ text-decoration: underline;
     grid-row: 1/3;
     text-align: center;
     font-family: poppins;
-    justify-self: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    justify-self: center; 
 }
 
 .Rig-mineria-venta2{
     grid-column: 6/8;
     grid-row: 1/3;
     text-align: center;
-    justify-self: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    justify-self: center; 
 }
 
 .Rig-mineria-venta3{
     grid-column: 10/12;
     grid-row: 1/3;
     text-align: center;
-    justify-self: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    justify-self: center; 
 }
 
 .Rig-mineria-venta4{
     grid-column: 2/4;
     grid-row: 4/6;
     text-align: center;
-    justify-self: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    justify-self: center; 
 }
 
 .Rig-mineria-venta5{
@@ -331,7 +327,6 @@ text-decoration: underline;
     grid-row: 4/6;
     text-align: center;
     justify-self: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
 }
 
 .Rig-mineria-venta6{
@@ -339,7 +334,6 @@ text-decoration: underline;
     grid-row: 4/6;
     text-align: center;
     justify-self: center;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
 }
 
 
@@ -367,7 +361,7 @@ text-decoration: underline;
     animation-duration: 1s;
     margin-bottom: 20px;
 }
-    .text_informativo{
+.text_informativo{
     grid-column: 4/9;
     grid-row: 2/4;
     color: #05076b;
@@ -406,11 +400,11 @@ text-decoration: underline;
 .avatar2{
     grid-column: 6/7;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-    }
-    .avatar3{ 
+}
+.avatar3{ 
     grid-column: 10/11;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-    }
+}
 
 .nombres{
     text-align: center;
@@ -492,7 +486,7 @@ text-decoration: underline;
 }
 
 .form{
-display: flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -550,7 +544,7 @@ display: flex;
     grid-row: 1/3;
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-border: solid  white;
+    border: solid  white;
 
 }
 .ethereum{
@@ -558,7 +552,7 @@ border: solid  white;
     grid-row: 1/3;
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-border: solid  white;
+    border: solid  white;
 
 
 }
@@ -568,7 +562,7 @@ border: solid  white;
     grid-row: 4/6;
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-border: solid  white;
+    border: solid  white;
 
 }
 .litecoin{
@@ -576,7 +570,7 @@ border: solid  white;
     grid-row: 4/6;
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-border: solid  white;
+    border: solid  white;
 }
 /* fin de  cloud mining */
 
@@ -584,17 +578,19 @@ border: solid  white;
 /* mediaqueries mobil y tablet index*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
 
-    .bootstrap{
-        display:  block;
-        grid-area: boots;
-    }
+.bootstrap{
+    display:  block;
+}
 
-    .img-logo-boots{
-        width: 130px;
-    }
+.img-logo-boots{
+    width: 100px;
+}
+
 .navbar{
     background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    height: 100px;
 }
+
 .nav-item{
     display: flex;
     margin: 10px;
@@ -648,112 +644,110 @@ border: solid  white;
     }
 }
 
+.container-header a h1{
+    display: none;
+}
 
-
-
-
-
-    .container-header a h1{
-        display: none;
-    }
-    .nav-bar{
-        display: none;
-    }
-    .img-logo{
-        display: none;
-    }
+.nav-bar{
+    display: none;
+}
+.img-logo{
+    display: none;
+}
     .redes-sociales{
-        display: none;
+    display: none;
     }
 
-
-    .container{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(12,1fr);
-        grid-template-areas:
-        "eslogan eslogan eslogan"
-        "contenido contenido contenido"
-        ". imgindex ."
-        "ventarig ventarig ventarig"
-        "ventarig ventarig ventarig"
-        "ventarig ventarig ventarig"
-        "cloudmining cloudmining cloudmining"
-        "cloudmining cloudmining cloudmining"
-        "cloudmining cloudmining cloudmining"
-        "mensaje mensaje mensaje"
-
-
-        ;
-        
-    }
-    .eslogan {
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-template-areas:
+    "eslogan eslogan eslogan"
+    "contenido contenido contenido"
+    ". imgindex ."
+    "ventarig ventarig ventarig"
+    "ventarig ventarig ventarig"
+    "ventarig ventarig ventarig"
+    "cloudmining cloudmining cloudmining"
+    "cloudmining cloudmining cloudmining"
+    "cloudmining cloudmining cloudmining"
+    "mensaje mensaje mensaje"
+    ;     
+}
+.eslogan {
     grid-area: eslogan;
+}
+
+.eslogan h3{
+    font-size: 30px;
+}
+
+.img-index {
+    grid-area: imgindex;
+
+}
+
+.img-index img{
+    width: 100%;
+    height: 100%;  
+}
+
+
+.contenido{
+    grid-area: contenido;
+    text-align: center;
+    margin: 0%;
+}
+
+.venta-rig{
+    grid-area: ventarig;
     }
-    .eslogan h3{
-        font-size: 30px;
-    }
-
-    .img-index {
-        grid-area: imgindex;
-
-    }
-    .img-index img{
-        width: 100%;
-        height: 100%;  
-        }
 
 
-    .contenido{
-        
-        grid-area: contenido;
-        text-align: center;
-        margin: 0%;
+.cloudmining{
+    grid-area: cloudmining;
+    margin-top: 10px;
+}
 
-        
-    }
-    .venta-rig{
-        grid-area: ventarig;
+.mensaje{
+    grid-area: mensaje;
+    text-align: center;
+    margin-top: 20px;
+}
     
-    }
-    .cloudmining{
-        grid-area: cloudmining;
-        margin-top: 10px;
-    }
+.button-w{
+    grid-area:   buttonw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.img-index2{
+    display: none;
+}
 
-    .mensaje{
-        grid-area: mensaje;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    .button-w{
-        grid-area:   buttonw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .img-index2{
-        display: none;
-    }
-    .img-index2 img{
-        
-        width: 100%;
-        height: 100%;
-    }
+.img-index2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
 .footer .redes-sociales{
     display: block;
 }
+
 .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: "contacto contacto redes";
 }
+
 .contactof{
     font-size: 10px;
     grid-area: contacto;
 }
+
 
 .redes-sociales{
     grid-area: redes;
@@ -763,71 +757,71 @@ border: solid  white;
   /* fin de mobil  y tabler index */
 
   /* mediaqueries para laptop y  dekstop index */
-@media screen and (min-width: 751px) and (max-width: 1324px) {
-    .nav-bar{
+@media screen and (min-width: 751px) and (max-width: 1324px) {.nav-bar{
+    display: block;
+}
 
-        display: block;
-    }
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-template-areas: 
+    "eslogan eslogan eslogan eslogan  eslogan eslogan"
+    "contenido  contenido contenido imgindex imgindex ."
+    ". ventarig ventarig ventarig ventarig ."
+    ". ventarig ventarig ventarig ventarig ."
+    ". ventarig ventarig ventarig ventarig ."
+    ". cloudmining cloudmining cloudmining cloudmining ."
+    ". cloudmining cloudmining cloudmining cloudmining ."
+    ". cloudmining cloudmining cloudmining cloudmining ."
+    ".  .   .   imgindex2   imgindex2   ."
+    ". mensaje mensaje imgindex2 imgindex2 ."
+    ". mensaje mensaje imgindex2 imgindex2 ."
+    ". buttonw . . . . ";
+}
 
-    .container{
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        grid-template-rows: repeat(12,1fr);
-        grid-template-areas: 
-        "eslogan eslogan eslogan eslogan  eslogan eslogan"
-        "contenido  contenido contenido imgindex imgindex ."
-        ". ventarig ventarig ventarig ventarig ."
-        ". ventarig ventarig ventarig ventarig ."
-        ". ventarig ventarig ventarig ventarig ."
-        ". cloudmining cloudmining cloudmining cloudmining ."
-        ". cloudmining cloudmining cloudmining cloudmining ."
-        ". cloudmining cloudmining cloudmining cloudmining ."
-        ".  .   .   imgindex2   imgindex2   ."
-        ". mensaje mensaje imgindex2 imgindex2 ."
-        ". mensaje mensaje imgindex2 imgindex2 ."
-        ". buttonw . . . . ";
-    }
+.eslogan{
+    grid-area: eslogan; 
+}
 
-    .eslogan{
-        grid-area: eslogan;
-        
-    }
-    .img-index{
-        grid-area: imgindex;
-        
-    }
-    .contenido{
-        grid-area: contenido;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    .venta-rig{
-        grid-area:ventarig;
+.img-index{
+    grid-area: imgindex;
+}
 
-    }
-    .cloudmining{
-        grid-area:cloudmining;
-        margin-top: 50px;
-        
-    }
-    .mensaje{
-        grid-area: mensaje;
-        text-align: center;
-    }
-    .img-index2{
-        grid-area: imgindex2;
-    }
-    .img-index2 img{
-        width: 300px;
-        height: 300px;
-    }
-    .button-w{
-        grid-area:buttonw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
+.contenido{
+    grid-area: contenido;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.venta-rig{
+    grid-area:ventarig;
+}
+
+.cloudmining{
+    grid-area:cloudmining;
+    margin-top: 50px;
+}
+
+.mensaje{
+    grid-area: mensaje;
+    text-align: center;
+}
+.img-index2{
+    grid-area: imgindex2;
+}
+.img-index2 img{
+    width: 300px;
+    height: 300px;
+}
+
+.button-w{
+    grid-area:buttonw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
 }
  /* fin de mediaqueries laptop y dekstop index!! */
 
@@ -841,7 +835,7 @@ border: solid  white;
     grid-template-areas:
     "eslogan2 eslogan2 eslogan2"
     "titulo titulo titulo"
-    ". lista img"
+    "lista lista img"
 }
 .eslogan2{
     grid-area: eslogan2;
@@ -909,264 +903,266 @@ border: solid  white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-}
 /* mediaqueries para mobile y tablet productos fin */
 
 /* mediaqueries  para laptop y dekstop !productos! */
 @media screen and (min-width: 751px) and (max-width: 1324px) {
     
-    .container-productos{
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas: 
-        ". eslogan2 eslogan2  eslogan2 eslogan2 ."
-        ". . titulo titulo img . "
-        ". . lista . img ."
-        ;
+.container-productos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    ". eslogan2 eslogan2  eslogan2 eslogan2 ."
+    ". . titulo titulo img . "
+    ". . lista . img ."
+    ;
     }
-    .eslogan2{
-        grid-area: eslogan2;
-    }
-    .titulo{
-        grid-area: titulo;
-    }
-    .lista-p{
-        grid-area: lista;
-        list-style: none;
-        text-decoration: underline;
-        text-align: center;
-    }
-    .imagen-portada{
+.eslogan2{
+    grid-area: eslogan2;
+}
+.titulo{
+    grid-area: titulo;
+}
+.lista-p{
+    grid-area: lista;
+    list-style: none;
+    text-decoration: underline;
+    text-align: center;
+}
+.imagen-portada{
     grid-area: img;
-    }
-    .imagen-portada img{
-        width: 100%;
-        height: 100%;
-    }
-    .container-rigs{
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: repeat(7,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas:
-        ". rig1 rig1 . rig2 rig2 ."
-        ". rig3 rig3 . rig4 rig4 ."
-        ". rig5 rig5 . rig6 rig6 . "
-    }
-    .Rig-mineria-venta1{
-        grid-area: rig1;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .Rig-mineria-venta2{
-        grid-area: rig2;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .Rig-mineria-venta3{
-        grid-area: rig3;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .Rig-mineria-venta4{
-        grid-area: rig4;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .Rig-mineria-venta5{
-        grid-area: rig5;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .Rig-mineria-venta6{
-        grid-area: rig6;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+}
+.imagen-portada img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-rigs{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    ". rig1 rig1 . rig2 rig2 ."
+    ". rig3 rig3 . rig4 rig4 ."
+    ". rig5 rig5 . rig6 rig6 . "
+}
+.Rig-mineria-venta1{
+    grid-area: rig1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rig-mineria-venta2{
+    grid-area: rig2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rig-mineria-venta3{
+    grid-area: rig3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rig-mineria-venta4{
+    grid-area: rig4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rig-mineria-venta5{
+    grid-area: rig5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rig-mineria-venta6{
+    grid-area: rig6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 }
 /* mediaqueries  para laptop y dekstop !productos! fin*/
 
 /* mediaqueries para nosotros mobile y  tablet*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
 
-    .container-nosotros{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas: 
-        "eslogan3 eslogan3 eslogan3"
-        "textf textf textf";
-        position: relative;
-    }
-    .eslogan3{
-        grid-area: eslogan3;
-        text-align: center;
-        /* mi primeras 1000 lineas de codigos :D */
-        margin-top: 50px;
-    }
-    .text_informativo{
-        grid-area: textf;
-        text-align: center;
+.container-nosotros{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "eslogan3 eslogan3 eslogan3"
+    "textf textf textf";
+    position: relative;
+}
+.eslogan3{
+    grid-area: eslogan3;
+    text-align: center;
+    margin-top: 50px;
+    /* mi primeras 1000 lineas de codigos :D */
+}
+.text_informativo{
+    grid-area: textf;
+    text-align: center;
+}
 
-    }
-    .lista_n{
-        display: none;
-    }
+.lista_n{
+    display: none;
+}
 
-    .img-cripto{
-        position: absolute;
-        left: 25%;
-        top: 30%;
+.img-cripto{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+.container-avatar{
+    display: grid;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas:
+    ". avatar1 ."
+    ". avatar2 ."
+    ". avatar3 .";
+}
 
-    }
-    .container-avatar{
-        display: grid;
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas:
-        ". avatar1 ."
-        ". avatar2 ."
-        ". avatar3 .";
-    }
-    .avatar1{
-        grid-area: avatar1;
-        border: solid black;
-        margin-top: 30px;
-        justify-self: center;
-        text-align: center;
-    }
-    .avatar2{
-        grid-area: avatar2;
-        border: solid black;
-        margin-top: 10px;
-        justify-self: center;
-        text-align: center;
-    }
-    .avatar3{
-        grid-area: avatar3;
-        margin-bottom: 20px;
-        border: solid black;
-        margin-top: 10px;
-        justify-self: center;
-        text-align: center;
-    }
+.avatar1{
+    grid-area: avatar1;
+    border: solid black;
+    margin-top: 30px;
+    justify-self: center;
+    text-align: center;
+}
+.avatar2{
+    grid-area: avatar2;
+    border: solid black;
+    margin-top: 10px;
+    justify-self: center;
+    text-align: center;
+}
+.avatar3{
+    grid-area: avatar3;
+    margin-bottom: 20px;
+    border: solid black;
+    margin-top: 10px;
+    justify-self: center;
+    text-align: center;
+}
 }
     /*fin de mediaqueries nostros*/
 
     /* mediaqueries contacto mobile y tablet*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
-    .container-contacto{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(7,1fr);
-        grid-template-areas:
-        "eslogan4 eslogan4 eslogan4" 
-        "telefonos telefonos telefonos"
-        "correo correo correo"
-        "ubicacion ubicacion ubicacion"
-        "ubicacion ubicacion ubicacion"
-        "formulario formulario formulario"
-        "formulario formulario  formulario";
-    }
-    .eslogan4{
-        grid-area: eslogan4;
-        margin-top: 100px;
-    }
+.container-contacto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7,1fr);
+    grid-template-areas:
+    "eslogan4 eslogan4 eslogan4" 
+    "telefonos telefonos telefonos"
+    "correo correo correo"
+    "ubicacion ubicacion ubicacion"
+    "ubicacion ubicacion ubicacion"
+    "formulario formulario formulario"
+    "formulario formulario  formulario";
+}
+.eslogan4{
+    grid-area: eslogan4;
+    margin-top: 100px;
+}
 
-    .telofonos{
-        grid-area: telefonos;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .whatsapp{ 
-        display: none;
-    } 
-    .correo-electronico{
-        display: none;
-    }
-    .correo{
-        grid-area: correo;
-        text-align: center;
-    }
-    .ubicacion{
-        grid-area: ubicacion;
-    }
-    .Formulario{
-        grid-area: formulario;
-        margin-top: 20px;
+.telofonos{
+    grid-area: telefonos;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.whatsapp{ 
+    display: none;
+} 
+.correo-electronico{
+    display: none;
+}
+.correo{
+    grid-area: correo;
+    text-align: center;
+}
+.ubicacion{
+    grid-area: ubicacion;
+}
+.Formulario{
+    grid-area: formulario;
+    margin-top: 20px;
 
-    }
+}
 }
 /* fin demediaqueris mobile y tablet contacto */
 
 /*      mediaqueries laptop y dekstop contacto */
 @media screen and (min-width: 751px) and (max-width: 1324px) {
-    .container-contacto{
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        grid-template-rows: repeat(8,1fr);
-        grid-template-areas: 
-        ". eslogan4 eslogan4 eslogan4 eslogan4  ."
-        ". correo correo telefonos  telefonos telefonos"
-        "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion"
-        "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion"
-        "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion"
-        ". formulario formulario formulario formulario ."
-        ". formulario formulario formulario formulario .";
-    } 
-    .eslogan4{
-        grid-area: eslogan4;
-    }
-    .telofonos{
-        grid-area: telefonos;
-    }
-    .correo{
-        grid-area: correo;
-    }
-    .ubicacion{
-        grid-area: ubicacion;
-    }
-    .Formulario{
-        grid-area: formulario;
-    }
+.container-contacto{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    ". eslogan4 eslogan4 eslogan4 eslogan4  ."
+    ". correo correo telefonos  telefonos telefonos"
+    "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion"
+    "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion"
+    "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion"
+    ". formulario formulario formulario formulario ."
+    ". formulario formulario formulario formulario .";
+} 
+.eslogan4{
+    grid-area: eslogan4;
+}
+.telofonos{
+    grid-area: telefonos;
+}
+.correo{
+    grid-area: correo;
+}
+.ubicacion{
+    grid-area: ubicacion;
+}
+.Formulario{
+    grid-area: formulario;
+
 }
 /* Fin de mediaqueries  laptop y dekstop contacto */
 
 /* mediaqueries mobile y tablet cloud  mining */
 @media screen and (min-width: 350px) and (max-width: 750px) {
+.container-cloud-mining{
+    display: none;
+}
 
-    .container-cloud-mining{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas:
-        "eslogan5 eslogan5 eslogan5"
-        "textocloud textocloud  textocloud"
-        ". imgcripto .";
-    }
-    .eslogan5{
-        grid-area: eslogan5;
-        margin-top: 100px;
+.container-cloud-mining{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    ". eslogan5 ."
+    "textocloud textocloud  textocloud"
+    ". imgcripto .";
+}
+.eslogan5{
+    display: none;
+    grid-area: eslogan5;
+    margin-top: 100px;
+}
+.texto-cloud-mining{
+    grid-area: textocloud;
+    padding: 50px;
+}
 
+.img-promo-cripto{
+    grid-area: imgcripto;
+    margin: 0%;
+}
 
-    }
-    .texto-cloud-mining{
-        grid-area: textocloud;
-        padding: 50px;
-
-    }
-    .img-promo-cripto{
-        grid-area: imgcripto;
-        margin: 0%;
-;
-    }
-    .container-cripto{
-        margin-top: 50px;
-    }
+.container-cripto{
+    margin-top: 50px;
+}
 }
 
 /* fin de   mediaqueries mobile y tablet cloud mining */
@@ -1193,5 +1189,5 @@ border: solid  white;
     .img-promo-cripto{
         grid-area: imgcripto;
     }
-}
-/* fin de mediaqueries laptop y dekstop */
+    }
+/* fin de mediaqueries laptop y dekstop * /
