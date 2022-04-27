@@ -16,3 +16,40 @@ $azul:#05086e;
 %gradiant-header-footer{
     background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 }
+
+%height-width-100porciento{
+    width: 100%;
+    height: 100%;  
+}
+
+%titulos-contacto{
+    font-family: poppins;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+%decoracion-caja-cloud-mining{
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    border: solid  white;
+}
+
+// mixin
+
+@mixin rig-mineria-venta($text-align, $decoration) {
+    text-align: $text-align;
+    justify-self:$decoration;    
+}
+
+@mixin margin-top-buttom($top,$buttom) {
+    margin-top: $top;
+    margin-bottom: $buttom;
+}
+
+//maps
+$colores:(
+    "blanco":white,
+    "azul":#05086e,
+)
+
+

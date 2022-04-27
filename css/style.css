@@ -1,9 +1,26 @@
-.cloudmining, .venta-rig {
+.Formulario, .avatar3, .avatar2, .avatar1, .cloudmining, .venta-rig {
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
 }
 
 .footer, .container-header {
   background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgb(5, 8, 114) 0%, rgb(7, 3, 53) 97.5%);
+}
+
+.img-caracteristicas {
+  width: 100%;
+  height: 100%;
+}
+
+.text-ubicacion, .text-email, .text-telefonicamente {
+  font-family: poppins;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.litecoin, .ethereum-classic, .ethereum, .bitcoin {
+  text-align: center;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
+  border: solid white;
 }
 
 * {
@@ -65,7 +82,29 @@ nav ul li a {
 }
 
 /* css  header*/
-/* css main */
+/*          Footer            */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". contactof redes-sociales";
+  width: 100%;
+  height: 100px;
+}
+
+.contactof {
+  grid-area: contactof;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  color: white;
+}
+
+.redes-sociales {
+  grid-area: redes-sociales;
+}
+
+/* fin de footer */
+/* Index */
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -211,396 +250,6 @@ nav ul li a {
   top: 80%;
 }
 
-/*          Footer            */
-.footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: ". contactof redes-sociales";
-  width: 100%;
-  height: 100px;
-}
-
-.contactof {
-  grid-area: contactof;
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-decoration: underline;
-  color: white;
-}
-
-.redes-sociales {
-  grid-area: redes-sociales;
-}
-
-/* fin de footer */
-/*      productos       */
-.eslogan2 {
-  grid-row: 1/1;
-  grid-column: 4/9;
-  font-family: poppins;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  margin-bottom: 20px;
-}
-
-.container-productos {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-  height: 400px;
-  width: 100%;
-}
-
-.titulo {
-  grid-column: 4/10;
-  grid-row: 2/3;
-  font-size: 25px;
-  font-family: poppins;
-  text-align: center;
-  color: #05076b;
-  text-decoration: underline;
-}
-
-.lista-p {
-  grid-column: 4/6;
-  grid-row: 4/6;
-  list-style: none;
-  text-decoration: underline;
-}
-
-.imagen-portada {
-  grid-column: 10/13;
-  grid-row: 1/5;
-}
-
-.imagen-portada img {
-  width: 200px;
-}
-
-/*   rig minerias en venta   */
-.container-rigs {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  transition: 0, 5s;
-  object-fit: cover;
-}
-
-.container-rigs img:hover {
-  transform: scale(1.1);
-}
-
-.Rig-mineria-venta1 {
-  grid-column: 2/4;
-  grid-row: 1/3;
-  text-align: center;
-  font-family: poppins;
-  justify-self: center;
-}
-
-.Rig-mineria-venta2 {
-  grid-column: 6/8;
-  grid-row: 1/3;
-  text-align: center;
-  justify-self: center;
-}
-
-.Rig-mineria-venta3 {
-  grid-column: 10/12;
-  grid-row: 1/3;
-  text-align: center;
-  justify-self: center;
-}
-
-.Rig-mineria-venta4 {
-  grid-column: 2/4;
-  grid-row: 4/6;
-  text-align: center;
-  justify-self: center;
-}
-
-.Rig-mineria-venta5 {
-  grid-column: 6/8;
-  grid-row: 4/6;
-  text-align: center;
-  justify-self: center;
-}
-
-.Rig-mineria-venta6 {
-  grid-column: 10/12;
-  grid-row: 4/6;
-  text-align: center;
-  justify-self: center;
-}
-
-.img-rig {
-  width: 300px;
-  height: 300px;
-}
-
-/*   rig minerias / procutos  fin   */
-/* nosotros */
-.container-nosotros {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-}
-
-.eslogan3 {
-  grid-column: 4/9;
-  font-family: poppins;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-  animation-name: flipInX;
-  animation-duration: 1s;
-  margin-bottom: 20px;
-}
-
-.text_informativo {
-  grid-column: 4/9;
-  grid-row: 2/4;
-  color: #05076b;
-  text-decoration: underline;
-}
-
-.container-nosotros img {
-  grid-column: 10/12;
-  grid-row: 2/4;
-}
-
-.container-nosotros ul {
-  grid-column: 3/5;
-  grid-row: 3;
-  text-decoration: underline;
-  list-style: none;
-}
-
-.img-cripto {
-  width: 200px;
-  height: 200px;
-}
-
-.container-avatar {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.container-avatar img {
-  width: 200px;
-  height: 200px;
-}
-
-.avatar1 {
-  grid-column: 2/3;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-}
-
-.avatar2 {
-  grid-column: 6/7;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-}
-
-.avatar3 {
-  grid-column: 10/11;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-}
-
-.nombres {
-  text-align: center;
-  font-family: poppins;
-  text-decoration: underline;
-  color: #05086d;
-}
-
-/* fin de nosotros */
-/* contacto */
-.container-contacto {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-}
-
-.eslogan4 {
-  grid-column: 5/9;
-  font-family: poppins;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-  animation-name: rubberBand;
-  animation-duration: 1s;
-  margin-bottom: 20px;
-}
-
-.text-telefonicamente {
-  font-family: poppins;
-  font-size: 25px;
-  text-decoration: underline;
-  color: #05076b;
-}
-
-.text-email {
-  font-family: poppins;
-  font-size: 25px;
-  text-decoration: underline;
-  color: #05076b;
-}
-
-.text-ubicacion {
-  font-family: poppins;
-  font-size: 25px;
-  text-decoration: underline;
-  color: #05076b;
-}
-
-.telofonos {
-  grid-column: 9/12;
-  grid-row: 2/3;
-  text-align: center;
-  position: relative;
-}
-
-.correo {
-  grid-column: 2/6;
-  grid-row: 2/3;
-  text-align: center;
-  position: relative;
-}
-
-.text-form {
-  font-family: poppins;
-  font-size: 20px;
-  text-decoration: underline;
-}
-
-.Formulario {
-  grid-column: 5/9;
-  grid-row: 8/13;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.input {
-  width: 50%;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
-.ubicacion {
-  grid-column: 1/13;
-  grid-row: 3/8;
-  text-align: center;
-  font-size: 15px;
-}
-
-.google-maps {
-  width: 100%;
-  height: 75%;
-}
-
-/*  fin de contacto   */
-/*  cloud mining */
-.container-cloud-mining {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-}
-
-.eslogan5 {
-  grid-column: 5/9;
-  font-family: poppins;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-  animation-name: rubberBand;
-  animation-duration: 1s;
-  margin-bottom: 20px;
-}
-
-.img-promo-cripto {
-  width: 200px;
-  grid-column: 6/9;
-  grid-row: 3/5;
-  margin-left: 55px;
-}
-
-.texto-cloud-mining {
-  grid-column: 5/9;
-  grid-row: 2/3;
-  text-decoration: underline;
-  color: #05076b;
-}
-
-.container-cripto {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-}
-
-.bitcoin {
-  grid-column: 2/3;
-  grid-row: 1/3;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.ethereum {
-  grid-column: 5/6;
-  grid-row: 1/3;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.ethereum-classic {
-  grid-column: 2/3;
-  grid-row: 4/6;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.litecoin {
-  grid-column: 5/6;
-  grid-row: 4/6;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.ethereum {
-  grid-column: 5/6;
-  grid-row: 1/3;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.ethereum-classic {
-  grid-column: 2/3;
-  grid-row: 4/6;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-.litecoin {
-  grid-column: 5/6;
-  grid-row: 4/6;
-  text-align: center;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
-  border: solid white;
-}
-
-/* fin de  cloud mining */
 /* mediaqueries mobil y tablet index*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
   .bootstrap {
@@ -821,6 +470,107 @@ nav ul li a {
   }
 }
 /* fin de mediaqueries laptop y dekstop index!! */
+/*      productos       */
+.eslogan2 {
+  grid-row: 1/1;
+  grid-column: 4/9;
+  font-family: poppins;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  margin-bottom: 20px;
+}
+
+.container-productos {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  height: 400px;
+  width: 100%;
+}
+
+.titulo {
+  grid-column: 4/10;
+  grid-row: 2/3;
+  font-size: 25px;
+  font-family: poppins;
+  text-align: center;
+  color: #05086e;
+  text-decoration: underline;
+}
+
+.lista-p {
+  grid-column: 4/6;
+  grid-row: 4/6;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.imagen-portada {
+  grid-column: 10/13;
+  grid-row: 1/5;
+}
+.imagen-portada img {
+  width: 200px;
+}
+
+/*   rig minerias en venta   */
+.container-rigs {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  transition: 0, 5s;
+  object-fit: cover;
+}
+.container-rigs .card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.Rig-mineria-venta1 {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  text-align: center;
+  justify-self: center;
+}
+
+.Rig-mineria-venta2 {
+  grid-column: 6/8;
+  grid-row: 1/3;
+  text-align: center;
+  justify-self: center;
+}
+
+.Rig-mineria-venta3 {
+  grid-column: 10/12;
+  grid-row: 1/3;
+  text-align: center;
+  justify-self: center;
+}
+
+.Rig-mineria-venta4 {
+  grid-column: 2/4;
+  grid-row: 4/6;
+  text-align: center;
+  justify-self: center;
+}
+
+.Rig-mineria-venta5 {
+  grid-column: 6/8;
+  grid-row: 4/6;
+  text-align: center;
+  justify-self: center;
+}
+
+.Rig-mineria-venta6 {
+  grid-column: 10/12;
+  grid-row: 4/6;
+  text-align: center;
+  justify-self: center;
+}
+
+/*   rig minerias / procutos  fin   */
 /* mediaqueries para mobile y tablet productos */
 @media screen and (min-width: 350px) and (max-width: 750px) {
   .container-productos {
@@ -852,7 +602,6 @@ nav ul li a {
   .imagen-portada {
     grid-area: img;
   }
-
   .imagen-portada img {
     width: 100%;
     height: 50%;
@@ -864,6 +613,20 @@ nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "rig1 rig1 rig1" "rig2 rig2 rig2" "rig3 rig3 rig3" "rig4 rig4 rig4" "rig5 rig5 rig5" "rig6 rig6 rig6";
+  }
+
+  .img-caracteristicas {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .img-caracteristicas:hover {
+    transform: scale(1.1);
+  }
+
+  .modal-content {
+    height: 300px;
+    width: 100%;
   }
 
   .Rig-mineria-venta1 {
@@ -930,7 +693,6 @@ nav ul li a {
   .imagen-portada {
     grid-area: img;
   }
-
   .imagen-portada img {
     width: 100%;
     height: 100%;
@@ -981,6 +743,76 @@ nav ul li a {
   }
 }
 /* mediaqueries  para laptop y dekstop !productos! fin*/
+/* nosotros */
+.container-nosotros {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.container-nosotros img {
+  grid-column: 10/12;
+  grid-row: 2/4;
+}
+.container-nosotros ul {
+  grid-column: 3/5;
+  grid-row: 3;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.eslogan3 {
+  grid-column: 4/9;
+  font-family: poppins;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  animation-name: flipInX;
+  animation-duration: 1s;
+  margin-bottom: 20px;
+}
+
+.text_informativo {
+  grid-column: 4/9;
+  grid-row: 2/4;
+  color: #05086e;
+  text-decoration: underline;
+}
+
+.img-cripto {
+  width: 200px;
+  height: 200px;
+}
+
+.container-avatar {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.container-avatar img {
+  width: 200px;
+  height: 200px;
+}
+
+.avatar1 {
+  grid-column: 2/3;
+}
+
+.avatar2 {
+  grid-column: 6/7;
+}
+
+.avatar3 {
+  grid-column: 10/11;
+}
+
+.nombres {
+  text-align: center;
+  font-family: poppins;
+  text-decoration: underline;
+  color: #05086e;
+}
+
+/* fin de nosotros */
 /* mediaqueries para nosotros mobile y  tablet*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
   .container-nosotros {
@@ -1048,6 +880,84 @@ nav ul li a {
   }
 }
 /*fin de mediaqueries nostros*/
+/* contacto */
+.container-contacto {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.eslogan4 {
+  grid-column: 5/9;
+  font-family: poppins;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  animation-name: rubberBand;
+  animation-duration: 1s;
+  margin-bottom: 20px;
+}
+
+.text-telefonicamente {
+  color: #05086e;
+}
+
+.text-email {
+  color: #05086e;
+}
+
+.text-ubicacion {
+  color: #05086e;
+}
+
+.telofonos {
+  grid-column: 9/12;
+  grid-row: 2/3;
+  text-align: center;
+  position: relative;
+}
+
+.correo {
+  grid-column: 2/6;
+  grid-row: 2/3;
+  text-align: center;
+  position: relative;
+}
+
+.text-form {
+  font-family: poppins;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.Formulario {
+  grid-column: 5/9;
+  grid-row: 8/13;
+  border: solid white;
+}
+
+.input {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ubicacion {
+  grid-column: 1/13;
+  grid-row: 3/8;
+  text-align: center;
+  font-size: 15px;
+}
+
+.google-maps {
+  width: 100%;
+  height: 75%;
+}
+
+/*  fin de contacto   */
 /* mediaqueries contacto mobile y tablet*/
 @media screen and (min-width: 350px) and (max-width: 750px) {
   .container-contacto {
@@ -1122,6 +1032,80 @@ nav ul li a {
   }
 }
 /* Fin de mediaqueries  laptop y dekstop contacto */
+/*  cloud mining */
+.container-cloud-mining {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.eslogan5 {
+  grid-column: 5/9;
+  font-family: poppins;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  animation-name: rubberBand;
+  animation-duration: 1s;
+  margin-bottom: 20px;
+}
+
+.img-promo-cripto {
+  width: 200px;
+  grid-column: 6/9;
+  grid-row: 3/5;
+  margin-left: 55px;
+}
+
+.texto-cloud-mining {
+  grid-column: 5/9;
+  grid-row: 2/3;
+  text-decoration: underline;
+  color: #05086e;
+}
+
+.container-cripto {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.bitcoin {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.ethereum {
+  grid-column: 5/6;
+  grid-row: 1/3;
+}
+
+.ethereum-classic {
+  grid-column: 2/3;
+  grid-row: 4/6;
+}
+
+.litecoin {
+  grid-column: 5/6;
+  grid-row: 4/6;
+}
+
+.ethereum {
+  grid-column: 5/6;
+  grid-row: 1/3;
+}
+
+.ethereum-classic {
+  grid-column: 2/3;
+  grid-row: 4/6;
+}
+
+.litecoin {
+  grid-column: 5/6;
+  grid-row: 4/6;
+}
+
+/* fin de  cloud mining */
 /* mediaqueries mobile y tablet cloud  mining */
 @media screen and (min-width: 350px) and (max-width: 750px) {
   .container-cloud-mining {
