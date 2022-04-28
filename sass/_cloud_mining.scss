@@ -19,7 +19,7 @@
     width: 200px;
     grid-column: 6/9;
     grid-row: 3/5;
-    margin-left: 55px;
+    margin-left: 50px;
 }
 .texto-cloud-mining{
     grid-column: 5/9;
@@ -90,23 +90,24 @@
         grid-template-areas:
         "eslogan5 eslogan5 eslogan5"
         "textocloud textocloud  textocloud"
+        "textocloud textocloud  textocloud"
         ". imgcripto .";
     }
     .eslogan5{
         grid-area: eslogan5;
-        margin-top: 150px;
+        margin-top: 50px;
 
 
     }
     .texto-cloud-mining{
         grid-area: textocloud;
-        padding: 50px;
-        width: 400px;
-        margin: 0%;
+        margin-top: 50px;
+        width: 100%;
 
     }
     .img-promo-cripto{
         grid-area: imgcripto;
+        width: 150px;
         margin: 0%;
     }
     .container-cripto{
@@ -137,6 +138,7 @@
     }
     .img-promo-cripto{
         grid-area: imgcripto;
+        margin: 0px 100px;
     }
 }
 /* fin de mediaqueries laptop y dekstop */

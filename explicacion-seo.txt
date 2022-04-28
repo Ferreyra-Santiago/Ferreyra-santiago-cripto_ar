@@ -21,8 +21,6 @@ crypto ethereum, crypto farmingrig de mineria, venta ethereum, ethereum argentin
 
 
 
-
 *Encabezado: intente usar distintos niveles de Encabezado para asi poder mostrar mejor una jerarquia de conteido en mis paginas
 
-
-
+tambien elimine muchas imagenes que tenia en la carpeta que no estaba utilizando y descomprimi todas las imagenes asi todas pesan menos de 80kb
