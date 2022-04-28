@@ -1,0 +1,28 @@
+En todas mis paginas aplique SEO con la siguientes caracteristicas
+
+*Descripcion: mediante la etiqueta <meta name="Descripcion"> agregue una Descripcion distinta a cada pagina  intentando explicar con pocas palabras una breve Descripcion 
+que aclare y transmita confianza alos visitantes
+
+
+-index: Tu entrada al mundo de las criptomonedas Vendemos equipo para minería de criptomonedas ensamblado y listo para minar, apuntando a tu wallet.
+
+-Productos: Contamos con equipos específicamente diseñados para minar y brindarte la mayor rentabilidad posible.
+
+-Nosotros: CriptoAR contamos un equipo de especialistas dedicados al mundo de las criptomonedas desde hace 3 años.
+
+-Contacto:Tu entrada al mundo de las criptomonedas Mándanos un mensaje, coordiná una reunión con nuestro equipo y empezá a generar tus ingresos
+
+-cloud-mining: Contratá hashrate para empezar a minar sin necesidad de mantenimiento
+
+
+
+*Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "criptomonedas, cripto argentina, cripto ether
+crypto ethereum, crypto farmingrig de mineria, venta ethereum, ethereum argentina, rigs de mineria cordoba, rigs de mineria armados,rig de mineria criptomonedas etc etc"
+
+
+
+
+*Encabezado: intente usar distintos niveles de Encabezado para asi poder mostrar mejor una jerarquia de conteido en mis paginas
+
+
+

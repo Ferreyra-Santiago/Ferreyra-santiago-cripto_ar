@@ -2,11 +2,6 @@
 $blanco:white;
 $azul:#05086e;
 
-
-
-
-
-
 //extend
 %gradiant-caja{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
@@ -24,7 +19,7 @@ $azul:#05086e;
 
 %titulos-contacto{
     font-family: poppins;
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: underline;
 }
 

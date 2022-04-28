@@ -8,7 +8,7 @@
 .eslogan5{
     grid-column: 5/9;
     font-family: poppins;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     text-decoration: underline;
     animation-name: rubberBand;
@@ -25,6 +25,7 @@
     grid-column: 5/9;
     grid-row: 2/3;
     text-decoration: underline;
+    font-size: 20px;
     color: $azul;
 }
 
@@ -93,19 +94,20 @@
     }
     .eslogan5{
         grid-area: eslogan5;
-        margin-top: 100px;
+        margin-top: 150px;
 
 
     }
     .texto-cloud-mining{
         grid-area: textocloud;
         padding: 50px;
+        width: 400px;
+        margin: 0%;
 
     }
     .img-promo-cripto{
         grid-area: imgcripto;
         margin: 0%;
-;
     }
     .container-cripto{
         margin-top: 50px;
