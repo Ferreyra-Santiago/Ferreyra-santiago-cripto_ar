@@ -32,10 +32,6 @@
 @font-face {
   font-family: poppins;
 }
-body {
-  font-family: poppins;
-}
-
 .bootstrap {
   display: none;
 }
@@ -95,8 +91,10 @@ nav ul li a {
   grid-area: contactof;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-decoration: underline;
   color: white;
+}
+.contactof h2 {
+  font-size: 25px;
 }
 
 .redes-sociales {
@@ -123,7 +121,6 @@ nav ul li a {
   text-decoration: underline;
   animation-name: bounceIn;
   animation-duration: 1s;
-  margin-bottom: 20px;
 }
 
 .contenido {
@@ -134,14 +131,15 @@ nav ul li a {
   color: black;
 }
 .contenido p {
-  margin-top: 20px;
   width: 100%;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .contenido ul {
   margin-top: 20px;
   list-style: none;
   text-decoration: underline;
+  text-align: center;
 }
 .contenido h5 {
   font-family: poppins;
@@ -198,6 +196,7 @@ nav ul li a {
   position: relative;
   border: solid black;
   overflow: hidden;
+  margin-top: 15px;
 }
 
 .img-serv {
@@ -367,7 +366,7 @@ nav ul li a {
 
   .cloudmining {
     grid-area: cloudmining;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .mensaje {
@@ -403,8 +402,10 @@ nav ul li a {
   }
 
   .contactof {
-    font-size: 10px;
     grid-area: contacto;
+  }
+  .contactof h2 {
+    font-size: 15px;
   }
 
   .redes-sociales {
@@ -468,6 +469,10 @@ nav ul li a {
     justify-content: center;
     align-items: center;
   }
+
+  .contactof h2 {
+    font-size: 20px;
+  }
 }
 /* fin de mediaqueries laptop y dekstop index!! */
 /*      productos       */
@@ -495,16 +500,16 @@ nav ul li a {
   grid-column: 3/10;
   grid-row: 2/3;
   font-size: 25px;
-  font-family: poppins;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   color: #05086e;
-  text-decoration: underline;
 }
 
 .lista-p {
   grid-column: 4/6;
   grid-row: 4/6;
   list-style: none;
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -774,8 +779,13 @@ nav ul li a {
 .text_informativo {
   grid-column: 4/9;
   grid-row: 2/4;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #05086e;
-  text-decoration: underline;
+  font-size: 17px;
+}
+
+.lista_n {
+  text-align: center;
 }
 
 .img-cripto {
@@ -786,7 +796,6 @@ nav ul li a {
 .container-avatar {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
 }
 .container-avatar img {
   width: 200px;
@@ -848,6 +857,7 @@ nav ul li a {
     position: absolute;
     left: 25%;
     top: 30%;
+    margin-top: 15px;
   }
 
   .container-avatar {
@@ -938,7 +948,7 @@ nav ul li a {
 .Formulario {
   grid-column: 5/9;
   grid-row: 8/13;
-  border: solid white;
+  border: solid #d6e6f2;
 }
 
 .input {
@@ -1012,7 +1022,7 @@ nav ul li a {
   .container-contacto {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-areas: ". eslogan4 eslogan4 eslogan4 eslogan4  ." ". correo correo telefonos  telefonos telefonos" "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion" "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion" "ubicacion ubicacion ubicacion ubicacion ubicacion ubicacion" ". formulario formulario formulario formulario ." ". formulario formulario formulario formulario .";
   }
 
@@ -1047,7 +1057,7 @@ nav ul li a {
 .eslogan5 {
   grid-column: 5/9;
   font-family: poppins;
-  font-size: 35px;
+  font-size: 32px;
   text-align: center;
   text-decoration: underline;
   animation-name: rubberBand;
@@ -1065,8 +1075,8 @@ nav ul li a {
 .texto-cloud-mining {
   grid-column: 5/9;
   grid-row: 2/3;
-  text-decoration: underline;
   font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #05086e;
 }
 

@@ -29,8 +29,12 @@
 .text_informativo{
     grid-column: 4/9;
     grid-row: 2/4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: $azul;
-    text-decoration: underline;
+    font-size: 17px;
+}
+.lista_n{
+    text-align: center;
 }
 
 .img-cripto{
@@ -40,7 +44,6 @@
 .container-avatar{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(2,1fr);   
 
     img{
         width: 200px;
@@ -106,6 +109,7 @@
         position: absolute;
         left: 25%;
         top: 30%;
+        margin-top: 15px;
     }
     .container-avatar{
         display: grid;

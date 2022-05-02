@@ -22,16 +22,16 @@
     grid-column: 3/10;
     grid-row: 2/3;
     font-size: 25px;
-    font-family: poppins;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     color:map-get($map: $colores, $key:"azul" );
-    text-decoration: underline;
     }
     
     .lista-p{
         grid-column: 4/6;
         grid-row: 4/6;
         list-style: none;
+        text-align: center;
         text-decoration: underline;
     }
     .imagen-portada{

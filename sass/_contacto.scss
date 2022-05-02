@@ -55,7 +55,7 @@
     grid-column: 5/9;
     grid-row: 8/13;
     @extend %gradiant-caja;
-    border: solid  $blanco;
+    border: solid  $gris-celeste;
 }
 
 .input{
@@ -133,7 +133,7 @@
         .container-contacto{
             display: grid;
             grid-template-columns: repeat(6,1fr);
-            grid-template-rows: repeat(8,1fr);
+            grid-template-rows: repeat(7,1fr);
             grid-template-areas: 
             ". eslogan4 eslogan4 eslogan4 eslogan4  ."
             ". correo correo telefonos  telefonos telefonos"

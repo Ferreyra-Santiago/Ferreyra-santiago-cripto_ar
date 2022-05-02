@@ -17,7 +17,6 @@
     text-decoration: underline;
     animation-name: bounceIn;
     animation-duration: 1s;
-    margin-bottom: 20px;
 }
 .contenido{
     margin-top: 50px;
@@ -27,15 +26,16 @@
     color: black;
 
             p{
-            margin-top: 20px;
             width: 100%;
             text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             }
 
             ul{
             margin-top: 20px;
             list-style: none;
             text-decoration: underline;
+            text-align: center;
             }
 
             h5{
@@ -55,7 +55,6 @@
         width: 350px;
     }
 }
-
 
 
 .img-index2{
@@ -100,6 +99,7 @@
     position: relative;
     border: solid black;
     overflow: hidden;
+    margin-top: 15px;
     @extend %gradiant-caja;
 }
 
@@ -287,7 +287,7 @@
     
     .cloudmining{
         grid-area: cloudmining;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     
     .mensaje{
@@ -324,8 +324,10 @@
     }
     
     .contactof{
-        font-size: 10px;
         grid-area: contacto;
+        h2{
+            font-size: 15px;
+        }
     }
     
     
@@ -402,6 +404,10 @@
         justify-content: center;
         align-items: center;  
     }
-    
+    .contactof{
+        h2{
+            font-size: 20px;
+        }
+    }
     }
      /* fin de mediaqueries laptop y dekstop index!! */

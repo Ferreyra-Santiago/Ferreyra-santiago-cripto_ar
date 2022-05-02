@@ -7,9 +7,6 @@
     font-family: poppins;
 }
 
-body{
-    font-family: poppins;
-}
 
 .bootstrap{
 display: none;
@@ -82,8 +79,10 @@ nav{
     grid-area: contactof;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;
     color: $blanco;
+    h2{
+        font-size: 25px;
+    }
 }
 
 .redes-sociales{
