@@ -26,8 +26,7 @@ display: none;
     
     h1{
         grid-area: h1;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-decoration: underline;
+        font-family: poppins;
         color: map-get($map: $colores, $key:"blanco" );
         margin-bottom: 10px;
     }

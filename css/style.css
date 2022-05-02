@@ -46,8 +46,7 @@
 }
 .container-header h1 {
   grid-area: h1;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-decoration: underline;
+  font-family: poppins;
   color: white;
   margin-bottom: 10px;
 }
