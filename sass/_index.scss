@@ -169,6 +169,13 @@
     .navbar{
         background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
         height: 100px;
+
+        h5{
+            color: white;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+        }
     }
     
     .nav-item{
@@ -187,13 +194,6 @@
     .offcanvas-title{
         font-family: 'popins';
         font-size: 20px;
-    }
-    
-    .navbar h5{
-        color: white;
-        font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
-        text-decoration: underline;
     }
     
     .img-logo-boots{
@@ -257,20 +257,19 @@
     }
     .eslogan {
         grid-area: eslogan;
-    }
-    
-    .eslogan h3{
-        font-size: 30px;
+
+            h3{
+            font-size: 30px;
+        }
     }
     
     .img-index {
         grid-area: imgindex;
-    
-    }
-    
-    .img-index img{
-        width: 100%;
-        height: 100%;  
+
+        img{
+            width: 100%;
+            height: 100%;  
+        }
     }
     
     
@@ -305,12 +304,14 @@
         
     .img-index2{
         display: none;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
     }
     
-    .img-index2 img{
-        width: 100%;
-        height: 100%;
-    }
+
     
     
     .footer .redes-sociales{
@@ -325,6 +326,7 @@
     
     .contactof{
         grid-area: contacto;
+
         h2{
             font-size: 15px;
         }
@@ -392,11 +394,13 @@
     }
     .img-index2{
         grid-area: imgindex2;
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
     }
-    .img-index2 img{
-        width: 300px;
-        height: 300px;
-    }
+
     
     .button-w{
         grid-area:buttonw;
@@ -405,6 +409,7 @@
         align-items: center;  
     }
     .contactof{
+
         h2{
             font-size: 20px;
         }
