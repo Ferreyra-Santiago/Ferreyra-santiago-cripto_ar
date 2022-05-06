@@ -10,7 +10,8 @@ $gris-celeste:#d6e6f2;
 
 
 %gradiant-header-footer{
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+
 }
 
 %height-width-100porciento{
@@ -28,6 +29,10 @@ $gris-celeste:#d6e6f2;
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
     border: solid  white;
+}
+
+%fuente-roboto{
+    font-family: 'Roboto', sans-serif;
 }
 
 // mixin

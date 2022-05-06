@@ -10,7 +10,7 @@
 
 .eslogan{
     grid-row: 1/2;
-    grid-column: 5/9 ;
+    grid-column: 4/10 ;
     font-family: poppins;
     font-size: 30px;
     text-align: center;
@@ -19,7 +19,7 @@
     animation-duration: 1s;
 }
 .contenido{
-    margin-top: 50px;
+    margin-top: 30px;
     grid-column: 4/7;
     grid-row: 2/6;
     justify-content: center;
@@ -28,14 +28,15 @@
             p{
             width: 100%;
             text-align: center;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            @extend %fuente-roboto;
             }
 
             ul{
-            margin-top: 20px;
+            margin: 0px 0px 10px;
             list-style: none;
             text-decoration: underline;
             text-align: center;
+            @extend %fuente-roboto;
             }
 
             h5{
@@ -67,7 +68,7 @@
 }
 
 .mensaje{
-    grid-column: 4/6;
+    grid-column: 4/7;
     grid-row: 10/13;
     position: relative;
 
@@ -75,6 +76,9 @@
         color:map-get($map: $colores, $key:"azul" );
         text-decoration: underline;
         margin: 20px;
+    }
+    p{
+        @extend %fuente-roboto;
     }
 }
 
@@ -99,7 +103,7 @@
     position: relative;
     border: solid black;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 15px; 
     @extend %gradiant-caja;
 }
 
@@ -121,6 +125,7 @@
     position: absolute;
     left: 50%;
     top: 5%;
+    font-family: poppins;
     text-decoration: underline;
     text-align: center;
 }
@@ -129,6 +134,7 @@
     left: 40%;
     top: 30%;
     text-align: center;
+    @extend %fuente-roboto;
 }
 
 .butto{
@@ -145,6 +151,7 @@
     margin-bottom: 30px;
     border: solid   black;
     overflow: hidden;
+    @extend %fuente-roboto;
     @extend %gradiant-caja;
 }
 .button{
@@ -341,7 +348,7 @@
       /* fin de mobil  y tabler index */
     
       /* mediaqueries para laptop y  dekstop index */
-    @media screen and (min-width: 751px) and (max-width: 1324px) {
+    @media screen and (min-width: 751px) and (max-width: 1400px) {
     .nav-bar{
         display: block;
     }

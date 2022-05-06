@@ -17,16 +17,19 @@
 }
 
 .text-telefonicamente{
+    font-family: poppins;
     @extend %titulos-contacto;
     color: $azul;
 }
 
 .text-email{
+    font-family: poppins;
     @extend %titulos-contacto;
     color: $azul;
 }
 
 .text-ubicacion{
+    font-family: poppins;
     @extend %titulos-contacto;
     color: $azul;
 }
@@ -63,6 +66,7 @@
 }
 
 .form{
+    @extend %fuente-roboto;
     display: flex;
     flex-direction: column;
 }

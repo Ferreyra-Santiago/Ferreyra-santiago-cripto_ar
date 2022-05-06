@@ -25,7 +25,7 @@
     grid-column: 5/9;
     grid-row: 2/3;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    @extend %fuente-roboto;
     color: $azul;
 }
 
