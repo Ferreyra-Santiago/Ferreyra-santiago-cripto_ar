@@ -103,6 +103,7 @@
         grid-area: textocloud;
         margin-top: 50px;
         width: 100%;
+        margin-left: 8px;
 
     }
     .img-promo-cripto{
@@ -112,6 +113,10 @@
     }
     .container-cripto{
         margin-top: 50px;
+    }
+    .container-cripto{
+        display: grid;
+        grid-template-rows: repeat(5,1fr);
     }
 }
 
@@ -139,6 +144,10 @@
     .img-promo-cripto{
         grid-area: imgcripto;
         margin: 0px 100px;
+    }
+    .container-cripto{
+        display: grid;
+        grid-template-rows: repeat(5,1fr);
     }
 }
 /* fin de mediaqueries laptop y dekstop */

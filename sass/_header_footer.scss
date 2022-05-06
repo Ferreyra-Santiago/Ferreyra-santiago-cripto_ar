@@ -70,10 +70,17 @@ nav{
 .footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". contactof redes-sociales";
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    " . contactof redes-sociales"
+    "copi copi  .";
     @extend %gradiant-header-footer;
     width: 100%;
     height: 100px;
+    p{
+        grid-area: copi;
+        color: $blanco;
+    }
 }
 .contactof{
     grid-area: contactof;
@@ -83,6 +90,7 @@ nav{
     h2{
         font-size: 25px;
     }
+
 }
 
 .redes-sociales{

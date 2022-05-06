@@ -154,6 +154,13 @@
     @extend %fuente-roboto;
     @extend %gradiant-caja;
 }
+.cloudmining-boots{
+display: none;
+}
+
+.venta-rig-boots{
+    display: none;
+}
 .button{
     position: absolute;
     left: 55%;
@@ -248,18 +255,15 @@
     .container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(12,1fr);
+        grid-template-rows: repeat(6,1fr);
         grid-template-areas:
         "eslogan eslogan eslogan"
         "contenido contenido contenido"
-        ". imgindex ."
-        "ventarig ventarig ventarig"
-        "ventarig ventarig ventarig"
-        "ventarig ventarig ventarig"
-        "cloudmining cloudmining cloudmining"
-        "cloudmining cloudmining cloudmining"
-        "cloudmining cloudmining cloudmining"
-        "mensaje mensaje mensaje"
+        ". ventarig ."
+        ". cloudmining ."
+        ". . ."
+        ". . ."
+        ". mensaje ."
         ;     
     }
     .eslogan {
@@ -272,50 +276,56 @@
     
     .img-index {
         grid-area: imgindex;
-
-        img{
-            width: 100%;
-            height: 100%;  
-        }
+        display: none;
     }
     
     
     .contenido{
         grid-area: contenido;
         text-align: center;
-        margin: 0%;
     }
     
     .venta-rig{
-        grid-area: ventarig;
+        display: none;
         }
-    
-    
+
     .cloudmining{
+        display: none;
+    }
+
+    .venta-rig-boots{
+        grid-area: ventarig;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        border: groove gray;
+        @include margin-top-buttom (0px, 15px);
+        @include rig-mineria-venta (center, center);
+        h5{
+            font-family: poppins;
+            text-decoration: underline;
+        }
+    }
+    
+    .cloudmining-boots{
+        display: block;
         grid-area: cloudmining;
-        margin-top: 30px;
+        font-family: 'Roboto', sans-serif;
+        border: groove gray;
+        @include rig-mineria-venta (center, center);
+        h5{
+            font-family: poppins;
+            text-decoration: underline;
+        }
     }
     
     .mensaje{
         grid-area: mensaje;
         text-align: center;
-        margin-top: 20px;
+        margin-bottom: 15px;
     }
-        
-    .button-w{
-        grid-area:   buttonw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-        
+
     .img-index2{
         display: none;
-
-        img{
-            width: 100%;
-            height: 100%;
-        }
     }
     
 
@@ -326,16 +336,23 @@
     }
     
     .footer{
+        margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-template-areas: "contacto contacto redes";
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas:
+        "contacto contacto redes"
+        ". . copi";
+        p{
+        grid-area: copi;
+        }
     }
     
     .contactof{
         grid-area: contacto;
 
         h2{
-            font-size: 15px;
+            font-size: 20px;
         }
     }
     
